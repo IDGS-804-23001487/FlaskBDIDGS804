@@ -23,3 +23,6 @@ class UserForm(Form):
         validators.DataRequired(message='El apellido es requerido'),
         validators.Email(message='Ingrese un correo valido')
     ])
+    
+
+    
